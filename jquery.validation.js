@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    var regform = $("#contact_form");
+    var regform = $("#register_form");
     var user = $("#user");
     var userinfo = $("#userInfo");
     var password = $("#password");
