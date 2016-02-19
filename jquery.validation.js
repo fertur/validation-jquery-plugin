@@ -63,7 +63,7 @@ $(document).ready(function () {
             return false;
         } else if (!regexp.test(a)) {
             password.addClass("error");
-            passwordinfo.text("The password must contain 6-12 digits and include a number and a capital letter at least.");
+            passwordinfo.text("The password must contain 6-12 digits and include a number at least.");
             return false;
         } else {
             password.removeClass("error");
