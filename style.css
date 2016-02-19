@@ -1,0 +1,81 @@
+html {
+    box-sizing: border-box;
+}
+body {
+    font: 150% sans-serif;    
+}
+h1 {
+    text-align: center;
+}
+span {
+    font-weight: bold;
+}
+img {
+    margin: auto;
+}
+h1 span {
+    color: orange;    
+    font-family: fantasy;
+    font-weight: normal;
+}
+form {
+    font-size: 1em;
+}
+form label {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+}
+form select {
+    display: block;
+    width: 200px;
+    margin-left: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+form span {
+    display: block;
+    color: #CC0000;
+    font-size: 1em;
+}
+form input {
+    display: block;
+    margin-left: 5px;
+}
+form .radio {
+    display: inline-block;
+    margin-left: 5px;
+}
+input {
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+}
+select:hover {
+    background-color: #CCFFFF;
+    border-radius: 5px 5px 5px 5px;
+}
+input:hover {
+    background-color: #F0F8FF;
+    border-radius: 5px 5px 5px 5px;
+}
+#contact_form {
+    width: 50%;
+    border-radius: 0px 10px 0px 10px;
+    background-color: lightgrey;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+#send {
+    margin: 2%;
+}
+#button {
+    text-align: center;
+}
+.error {
+    border: 3px solid #FFA500;        
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 1%;
+}
